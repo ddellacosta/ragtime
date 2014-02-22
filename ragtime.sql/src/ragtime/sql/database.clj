@@ -1,6 +1,6 @@
 (ns ragtime.sql.database
   (:use [ragtime.core :only (Migratable connection)])
-  (:require [clojure.java.jdbc :as sql]
+  (:require [clojure.java.jdbc.deprecated :as sql]
             [clojure.java.io :as io])
   (:import java.util.Date
            java.text.SimpleDateFormat))
